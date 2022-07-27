@@ -1,0 +1,30 @@
+{
+  "name": "@hxfy-cli/log",
+  "version": "1.0.6",
+  "description": "hxfy-cli log",
+  "author": "张玉 <zyjavascript@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:EightAbdominalMuscles/hxfy-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "npmlog": "^6.0.0"
+  },
+  "gitHead": "03c9f457bcff31bde5f07597cffcd1831ddcb8f7"
+}

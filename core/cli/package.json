@@ -1,0 +1,40 @@
+{
+  "name": "@hxfy-cli/core",
+  "version": "1.0.6",
+  "description": "hxfy-cli core",
+  "author": "张玉 <zyjavascript@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "hxfy-cli": "bin/index.js"
+  },
+  "dependencies": {
+    "@hxfy-cli/exec": "^1.0.6",
+    "@hxfy-cli/get-npm-info": "^1.0.6",
+    "@hxfy-cli/init": "^1.0.6",
+    "@hxfy-cli/log": "^1.0.6",
+    "colors": "^1.4.0",
+    "commander": "^8.3.0",
+    "dotenv": "^10.0.0",
+    "import-local": "^3.0.3",
+    "npmlog": "^6.0.0",
+    "path-exists": "^4.0.0",
+    "root-check": "1.0.0",
+    "semver": "^7.3.5"
+  },
+  "scripts": {
+    "test": "echo \"Run testing from core\""
+  },
+  "gitHead": "03c9f457bcff31bde5f07597cffcd1831ddcb8f7"
+}
