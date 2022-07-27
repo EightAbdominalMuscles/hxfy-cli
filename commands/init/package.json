@@ -1,6 +1,6 @@
 {
   "name": "@hxfy-cli/init",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "hxfy-cli init",
   "author": "张玉 <zyjavascript@163.com>",
   "homepage": "",
@@ -26,8 +26,8 @@
   "dependencies": {
     "@hxfy-cli/command": "^1.0.7",
     "@hxfy-cli/log": "^1.0.7",
-    "@hxfy-cli/package": "^1.0.7",
-    "@hxfy-cli/request": "^1.0.7",
+    "@hxfy-cli/package": "^1.0.8",
+    "@hxfy-cli/request": "^1.0.8",
     "@hxfy-cli/utils": "^1.0.7",
     "ejs": "^3.1.6",
     "fs-extra": "^9.0.1",

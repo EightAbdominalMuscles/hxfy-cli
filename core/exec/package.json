@@ -1,6 +1,6 @@
 {
   "name": "@hxfy-cli/exec",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "hxfy-cli execute package",
   "author": "张玉 <zyjavascript@163.com>",
   "homepage": "",
@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@hxfy-cli/log": "^1.0.7",
-    "@hxfy-cli/package": "^1.0.7",
+    "@hxfy-cli/package": "^1.0.8",
     "@hxfy-cli/utils": "^1.0.7"
   },
   "gitHead": "03c9f457bcff31bde5f07597cffcd1831ddcb8f7"

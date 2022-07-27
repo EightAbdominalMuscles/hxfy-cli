@@ -1,6 +1,6 @@
 {
   "name": "@hxfy-cli/core",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "hxfy-cli core",
   "author": "张玉 <zyjavascript@163.com>",
   "homepage": "",
@@ -20,9 +20,9 @@
     "hxfy-cli": "bin/index.js"
   },
   "dependencies": {
-    "@hxfy-cli/exec": "^1.0.7",
+    "@hxfy-cli/exec": "^1.0.8",
     "@hxfy-cli/get-npm-info": "^1.0.7",
-    "@hxfy-cli/init": "^1.0.7",
+    "@hxfy-cli/init": "^1.0.8",
     "@hxfy-cli/log": "^1.0.7",
     "colors": "^1.4.0",
     "commander": "^8.3.0",
