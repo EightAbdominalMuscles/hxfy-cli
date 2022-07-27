@@ -16,6 +16,7 @@ const constant = require('./const')
 const log = require('@hxfy-cli/log')
 const exec = require('@hxfy-cli/exec')
 const program = new Command()
+console.log(111)
 async function core() {
     // TODO
     try{
