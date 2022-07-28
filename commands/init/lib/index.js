@@ -31,7 +31,6 @@ class InitCommand extends Command {
     }
     async exec() {
         try {
-            
             // 1. 准备  阶段
             const projectInfo = await this.prepare()
             if (projectInfo) {
@@ -128,6 +127,8 @@ class InitCommand extends Command {
     }
 
     async installNormalTemplate() {
+        debugger
+        this.templateNpm
         // 拷贝模版至当前目录
         let spinner = spinnerStart('正在安装模版...')
         await sleep()
@@ -153,7 +154,6 @@ class InitCommand extends Command {
         await this.execCommand(startCommand, '启动执行命令失败！')
     }
     async installCustomTemplate() {
-        console.log(123, this.templateNpm)
         if (await this.templateNpm.exists()) {
             const rootFile = this.templateNpm.getRootFilePath()
             if (fs.existsSync(rootFile)) {
@@ -181,6 +181,7 @@ class InitCommand extends Command {
         const storeDir = path.resolve(userHome, '.hxfy-cli', 'template', 'node_modules')
         const {npmName, version} = templateInfo
         this.templateInfo = templateInfo
+        debugger
         const templateNpm = new Package({
             targetPath,
             storeDir,
@@ -406,7 +407,6 @@ class InitCommand extends Command {
     }
 }
 function init(argv) {
-    debugger
     // console.log('init', projectName, cmdObj, process.env.CLI_TARGET_PATH)
     return new InitCommand(argv)
 }

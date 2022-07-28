@@ -16,7 +16,6 @@ const constant = require('./const')
 const log = require('@hxfy-cli/log')
 const exec = require('@hxfy-cli/exec')
 const program = new Command()
-console.log(111)
 async function core() {
     // TODO
     try{
@@ -74,7 +73,6 @@ function registerCommand () {
     
 }
 async function prepare() {
-    debugger
     checkPkgVerison()
     checkRoot()
     checkUserHome()
@@ -121,7 +119,6 @@ function createDefaultConfig() {
 }
 
 function checkUserHome() {
-    debugger
     if (!userHome || !pathExists(userHome)) {
         throw new Error(colors.red('当前登录用户主目录不存在！'))
     }

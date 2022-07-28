@@ -6,7 +6,8 @@ const BASE_URL = process.env.HXFY_CLI_BASE_URL ? process.env.HXFY_CLI_BASE_URL :
 
 const request = axios.create({
     baseURL: BASE_URL,
-    timeout: 5000
+    // 免费云MongoDB存储,响应慢
+    timeout: 20000
 })
 request.interceptors.response.use(
     response => {
