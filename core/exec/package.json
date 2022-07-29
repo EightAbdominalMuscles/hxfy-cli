@@ -1,6 +1,6 @@
 {
   "name": "@hxfy-cli/exec",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "hxfy-cli execute package",
   "author": "张玉 <zyjavascript@163.com>",
   "homepage": "",
@@ -24,9 +24,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@hxfy-cli/log": "^1.0.7",
-    "@hxfy-cli/package": "^1.0.10",
-    "@hxfy-cli/utils": "^1.0.7"
+    "@hxfy-cli/log": "^1.0.11",
+    "@hxfy-cli/package": "^1.0.11",
+    "@hxfy-cli/utils": "^1.0.11"
   },
   "gitHead": "01a86e74d387e70531edbca3197a79fc50c1f1d8"
 }
