@@ -19,7 +19,7 @@
   "scripts": {
     "test": "echo \"Run testing from utils\""
   },
-  "gitHead": "03c9f457bcff31bde5f07597cffcd1831ddcb8f7",
+  "gitHead": "01a86e74d387e70531edbca3197a79fc50c1f1d8",
   "dependencies": {
     "cli-spinner": "^0.2.10"
   }
