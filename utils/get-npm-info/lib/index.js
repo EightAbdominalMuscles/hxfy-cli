@@ -45,9 +45,13 @@ async function getNpmSemverVersion(baseVersion, npmName, registry ) {
     return null
 }
 async function getNpmLatestVersion(npmName, registry) {
-    let versions = await getNpmVersions (npmName, registry)
-    if (versions) {
-        return versions.sort((a, b) => semver.gt(b, a))[0]
+    // let versions = await getNpmVersions (npmName, registry)
+    // if (versions) {
+    //     return versions.sort((a, b) => semver.gt(b, a))[0]
+    // }
+    const data = await getNpmInfo(npmName, registry)
+    if (data['dist-tags'].latest) {
+        return data['dist-tags'].latest
     }
     return null
 }
